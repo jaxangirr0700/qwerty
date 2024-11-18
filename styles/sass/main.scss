@@ -1,0 +1,55 @@
+//
+//
+@import "sectionone";
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+//
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+  padding: 0px 138px;
+}
+header {
+  padding-top: 25px !important;
+  padding-bottom: 0;
+}
+.header-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.h-b-item {
+  display: flex;
+  gap: 5px;
+
+  flex-wrap: wrap;
+}
+.h-b-item-two {
+  flex-wrap: wrap;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.opasity8 {
+  opacity: 0.8;
+  color: gray;
+}
+.nav-ul {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 1354px !important;
+}
+.nav-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main {
+  padding-bottom: 50px;
+}
